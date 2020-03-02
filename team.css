@@ -1,0 +1,140 @@
+/* Section/Article */
+
+section.special,
+article.special {
+  text-align: center;
+}
+
+section .left {
+  text-align: left;
+}
+
+/*h2 {
+  font-family: Lucida Grande, Lucida Sans Unicode, Lucida Sans, Geneva, Verdana,
+    sans-serif;
+  color: rgb(53, 85, 150);
+  font-weight: lighter;
+}*/
+
+#first-text {
+  font-family: Acme;
+  font-size: 70px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 100;
+  line-height: 50px;
+  color: rgb(53, 85, 150);
+  text-align: center;
+  margin-bottom: 75px;
+  margin-top: -50px;
+}
+
+@media screen and (max-width: 736px) {
+  #first-text {
+    font-size: 50px;
+    margin-top: -30px;
+    margin-bottom: 37px;
+  }
+}
+
+/*h3 {
+  font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 15.4px;
+}
+p {
+  font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+blockquote {
+  font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+  font-size: 21px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+pre {
+  font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 18.5714px;
+}*/
+#introduction {
+  font-family: "Jaldi", sans-serif;
+  font-size: 1.1em;
+}
+.profile-image {
+  margin: auto;
+  margin-bottom: 2em;
+  width: 9em;
+  height: 9em;
+  border-radius: 50%;
+  background-size: cover;
+  border: 5px outset #1c6ea4;
+}
+#project-lead-img {
+  background-image: url("../images/Kieu Huynh.jpg");
+}
+#mechanical-lead-img {
+  background-image: url("../images/Roy Choi.jpg");
+}
+#electrical-lead-img {
+  background-image: url("../images/Bryan Thai.jpg");
+}
+.section-name {
+  font-family: Acme;
+}
+.profile-header {
+  font-size: 0.9em;
+  opacity: 75%;
+  color: rgb(216, 148, 0);
+  font-family: Jaldi;
+}
+.profile-description {
+  text-align: left;
+  padding: 0.7em;
+  font-size: 0.9em;
+}
+.team-description {
+  font-size: 1.1em;
+}
+.text-muted {
+  padding: 0.7em;
+  font-family: "Jaldi", sans-serif;
+}
+.lead {
+  margin-bottom: 1em;
+}
+.icon-wrapper {
+  margin: auto;
+  margin-bottom: 2em;
+  height: 9em;
+  width: 9em;
+  text-align: center;
+  /*vertical-align: center;*/
+  vertical-align: middle;
+  border-radius: 50%;
+  border: 5px outset #1c6ea4;
+}
+.symbol {
+  line-height: 180px;
+  /*line-height: 20%;*/
+}
+.other-members {
+  margin-top: 1em;
+}
+h4 {
+  font-family: Lucida Grande, Lucida Sans Unicode, Lucida Sans, Geneva, Verdana,
+    sans-serif;
+  color: rgb(53, 85, 150);
+}
